@@ -1,1 +1,10 @@
-
+def three_five(num):
+	arr = []
+	for i in range(0,num):
+		if i%3 == 0 or i%5 == 0:
+			arr.append(i)
+		else:
+			pass
+	return sum(arr)
+	
+# ANSWER FOR 1000 IS: 233168
